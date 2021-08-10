@@ -1,0 +1,317 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wapper {
+    width: 100%;
+    height: auto;
+    background-image: url('https://aibotv.oss-cn-hongkong.aliyuncs.com/v1/ldynew/img/bigbg.js');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wapper .wapper_inner {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://aibotv.oss-cn-hongkong.aliyuncs.com/v1/ldynew/img/tuceng.js');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wapper .wapper_inner .wapper_content {
+    width: 100%;
+    height: 100%;
+}
+
+.wapper .wapper_inner .wapper_content .topContent {
+    width: 100%;
+    height: 1.2rem;
+    background-image: url('https://aibotv.oss-cn-hongkong.aliyuncs.com/v1/ldynew/img/topbg.js');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 999;
+}
+
+.wapper .wapper_inner .wapper_content .topContent .left {
+    display: flex;
+    align-items: center;
+}
+
+.wapper .wapper_inner .wapper_content .topContent .left .changeimg {
+    width: 0.8rem;
+    height: 0.8rem;
+    display: flex;
+    border-radius: 0.16rem;
+}
+
+.wapper .wapper_inner .wapper_content .topContent .left .r_Text {
+    margin-left: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wapper .wapper_inner .wapper_content .topContent .left .r_Text .text1 {
+    color: #ffffff;
+    font-size: 0.3rem
+}
+
+.wapper .wapper_inner .wapper_content .topContent .left .r_Text .text2 {
+    color: #ffffff;
+    font-size: 0.22rem;
+    margin-top: 0.1rem;
+}
+
+.wapper .wapper_inner .wapper_content .topContent .down {
+    width: 1.6rem;
+    height: 0.8rem;
+    margin-top: 0.14rem;
+}
+
+/* banner */
+.banner_content {
+    width: 100%;
+    padding-top: 1.8rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.banner_content .bgimg {
+    width: 100%;
+    height: 7rem;
+    animation: scaleDraw 5s ease-in-out infinite;
+}
+
+/* æŒ‰é’® */
+.b_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b_btn .watch_btn {
+    width: 4rem;
+    height: 0.7rem;
+    background-image: url('https://aibotv.oss-cn-hongkong.aliyuncs.com/v1/ldynew/img/btnlist/watchNow.js');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0.4rem;
+}
+
+.b_btn .down_btn {
+    width: 4rem;
+    height: 0.7rem;
+    background-image: url('https://aibotv.oss-cn-hongkong.aliyuncs.com/v1/ldynew/img/btnlist/downbtn.js');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0.2rem;
+    animation: scaleDraw 5s ease-in-out infinite;
+}
+
+.b_btn .xiala_btn {
+    width: 0.55rem;
+    height: 0.72rem;
+    background-image: url('https://aibotv.oss-cn-hongkong.aliyuncs.com/v1/ldynew/img/btnlist/arrow.js');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0.3rem;
+}
+
+.b_btn .ziyaun {
+    width: 4rem;
+    height: 0.7rem;
+    background-image: url('https://aibotv.oss-cn-hongkong.aliyuncs.com/v1/ldynew/img/btnlist/hailiangziyuan.js');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0.2rem;
+}
+
+/* å›¾ç‰‡ */
+.imgList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0.2rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.imgList_item {
+    width: 3.2rem;
+    height: 2.6rem;
+    margin-bottom: 0.2rem;
+    position: relative;
+}
+
+.item_img {
+    width: 100%;
+    height: 100%;
+}
+
+.right_top {
+    position: absolute;
+    width: 1rem;
+    height: 0.44rem;
+    top: 0.06rem;
+    right: 0.06rem;
+}
+
+.b_left {
+    position: absolute;
+    width: 1.6rem;
+    height: 0.5rem;
+    left: 0.06rem;
+    bottom: 0.06rem;
+}
+
+/* å¹¿å‘Š */
+.b_content {
+    width: 100%;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.b_contentimg {
+    width: 100%;
+    height: 7rem;
+}
+
+/* è§†é¢‘ */
+.videoList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.videoList_item {
+    width: 3.2rem;
+    height: 3.6rem;
+    margin-bottom: 0.2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.play_img {
+    width: 0.9rem;
+    height: 0.9rem;
+    z-index: 999;
+}
+
+.buttom_wrap {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding-left: .3rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.76rem;
+    background: url(https://aibotv.oss-cn-hongkong.aliyuncs.com/v1/ldynew/img/background.js) no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.28rem;
+    z-index: 999;
+
+}
+
+.buttom_wrap span:first-child {
+    color: #fff;
+}
+
+.buttom_wrap span:nth-child(2) {
+    width: 1.84rem;
+    height: 0.48rem;
+    margin-left: .2rem;
+    line-height: 0.48rem;
+    padding-left: .15rem;
+    background: url('https://aibotv.oss-cn-hongkong.aliyuncs.com/v1/ldynew/img/qq.js') no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.buttom_wrap span:last-child {
+    width: 2.44rem;
+    height: 0.48rem;
+    padding-left: .15rem;
+    margin-left: .2rem;
+    line-height: 0.48rem;
+    background: url('https://aibotv.oss-cn-hongkong.aliyuncs.com/v1/ldynew/img/te.js') no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.pop_content {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.pop_wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .6);
+}
+
+.pop_wrap img:nth-child(1) {
+    width: 5.4rem;
+    height: 8.48rem;
+    margin-bottom: .4rem;
+}
+
+.pop_wrap img:nth-child(2) {
+    width: .86rem;
+    height: .86rem;
+}
+
+@keyframes scaleDraw {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.1);
+    }
+}
