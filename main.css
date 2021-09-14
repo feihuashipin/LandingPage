@@ -588,13 +588,13 @@ html {
     user-select: none;
     background: rgba(33, 35, 36, .85);
     width: 100%;
-    height: 70px;
+    height: 140px;
     z-index: 1000;
     -webkit-box-shadow: 0 1px 0 0 #dfe0e0, 0 2px 2px 0 rgba(228, 229, 229, .8);
     box-shadow: 0 1px 0 0 #dfe0e0, 0 2px 2px 0 rgba(228, 229, 229, .8);
     position: fixed;
     bottom: 0px;
-    left: 0
+    left: 0;
 }
 
 .ad-download[data-v-7e93ab78] {
@@ -851,7 +851,7 @@ html {
 }
 
 .tvp_app_bar_dark[data-v-7e93ab78] {
-    background: rgba(33, 35, 36, .85)
+    background: rgb(0 0 0 / 0%);
 }
 
 .tvp_app_bar_dark .tvp_wording_title[data-v-7e93ab78] {
